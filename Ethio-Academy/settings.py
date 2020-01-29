@@ -40,7 +40,10 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'Home.apps.HomeConfig',
+    'Blog.apps.BlogConfig',
     'About.apps.AboutConfig',
+    'RegisterStudent.apps.RegisterStudentConfig',
+    'RegisterVaccancy.apps.RegisterVaccancyConfig',
     'SAMPLE.apps.SampleConfig',
     'django.contrib.admin',
     'django.contrib.auth',

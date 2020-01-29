@@ -8,7 +8,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Home.urls')),
     path('contact/', include('Contact.urls')),
+    path('RegisterStudent/',include('RegisterStudent.urls')),
     path('SAMPLE/',include('SAMPLE.urls')),
+    path('Blog/',include('Blog.urls')),
+    path('RegisterVaccancy/',include('RegisterVaccancy.urls')),
     path('About/',include('About.urls'))
 
 ]
