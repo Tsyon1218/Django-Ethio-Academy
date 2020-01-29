@@ -1,0 +1,33 @@
+{% extends 'Base/base.html' %}
+{% block content %}
+<header>
+  <div> <img src="../../media/review-bg.jpg"></div>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h2></h2>
+          <span class="subheading"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+    {% for Blog in all_Blogs %}
+      <div class="col-md-4">
+        <h2>{{blog.title}}</h2>
+        <p>{{blog.body}}</p>
+        <p><a class="btn btn-secondary" href="{% url 'Blog:detail' blog.id %}" role="button">View details &raquo;</a></p>
+      </div>
+    {% endfor %}
+    </div>
+  </div> <!-- /container -->
+
+</main>
+
+{% endblock %}
