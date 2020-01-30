@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'About.apps.AboutConfig',
     'RegisterStudent.apps.RegisterStudentConfig',
     'RegisterVaccancy.apps.RegisterVaccancyConfig',
+    'Conferm.apps.ConfermConfig',
     'SAMPLE.apps.SampleConfig',
     'django.contrib.admin',
     'django.contrib.auth',

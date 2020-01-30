@@ -11,6 +11,7 @@ urlpatterns = [
     path('RegisterStudent/',include('RegisterStudent.urls')),
     path('SAMPLE/',include('SAMPLE.urls')),
     path('Blog/',include('Blog.urls')),
+    path('Conferm/',include('Conferm.urls')),
     path('RegisterVaccancy/',include('RegisterVaccancy.urls')),
     path('About/',include('About.urls'))
 
